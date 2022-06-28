@@ -1,2 +1,24 @@
-# personal-portfolio-API
-This is an API meant to hold all the data for my Portfolio regarding each project I've made. This includes methods for Storing, Deleting and Getting projects. The main goal with this is to facilitate the way I add new projects, separating the front-end logic with the data
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
