@@ -12,7 +12,7 @@ class ProjectsController < ApplicationController
                     status: 401
     end
 
-    ctx = Projects::Create.call({project_params: })
+    ctx = Projects::Create.call({ project_params: })
 
     return render json: ctx[:errors], status: ctx[:status] if ctx.failure?
 

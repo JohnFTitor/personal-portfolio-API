@@ -28,10 +28,10 @@ class Projects::Create
 
   def create_project!
     context.message = Project.create!(context.project_params) if context.project_params
-    
+
     context.status = 201
   end
-  
+
   def handle_errors(message, status = 422)
     context.fail!(errors: { error: message }, status:)
   end
