@@ -1,10 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe "Projects", type: :request do
-  
+RSpec.describe 'Projects', type: :request do
   let!(:projects) { create_list(:project, 20) }
-  
-  describe "GET projects" do
+
+  describe 'GET projects' do
     it 'should retrieve all projects' do
       get projects_path
       json_response = JSON.parse(response.body)

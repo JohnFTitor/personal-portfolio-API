@@ -18,12 +18,12 @@ RSpec.describe Project, type: :model do
       it 'should have more than 3 characters' do
         subject.title = 'Da'
         subject.save
-  
+
         expect(subject).to_not be_valid
       end
     end
 
-    context 'image files' do 
+    context 'image files' do
       it 'should have images' do
         subject.images = nil
 
