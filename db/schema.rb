@@ -50,7 +50,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_28_174445) do
     t.string "live"
     t.string "source"
     t.string "demo"
-    t.string "mobileImage"
+    t.string "mobile_image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

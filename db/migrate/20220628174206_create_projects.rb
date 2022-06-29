@@ -8,7 +8,7 @@ class CreateProjects < ActiveRecord::Migration[7.0]
       t.string :live
       t.string :source
       t.string :demo
-      t.string :mobileImage
+      t.string :mobile_image
 
       t.timestamps
     end
