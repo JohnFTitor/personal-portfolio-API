@@ -21,6 +21,7 @@ class Projects::Create
       hash[:images] = []
       hash[:images].push(hash[:desktop_image])
       hash[:images].push(hash[:mobile_image])
+      hash[:tags] = hash[:tags].split(',')
       hash.delete(:desktop_image)
       hash.delete(:mobile_image)
     end
